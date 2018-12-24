@@ -7,7 +7,7 @@ RUN apk add --no-cache nginx
 
 RUN apk add --no-cache build-base linux-headers pcre-dev && \
     pip install uwsgi && \
-    apk del build-base linux-headers pcre-dev && \
+    apk del build-base linux-headers && \
     rm -rf /var/cache/apk/*
 
 COPY root/ /
