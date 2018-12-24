@@ -14,7 +14,7 @@ Base docker image for deploying Python web application, like Flask and Django.
 FROM joshava/uwsgi-nginx
 ```
 
-[docker]: https://cloud.docker.com/u/joshava/repository/docker/joshava/uwsgi-nginx
+[docker]: https://hub.docker.com/r/joshava/uwsgi-nginx
 [docker_pull]: https://img.shields.io/docker/pulls/joshava/uwsgi-nginx.svg
 [docker_star]: https://img.shields.io/docker/stars/joshava/uwsgi-nginx.svg
 [docker_size]: https://img.shields.io/microbadger/image-size/joshava/uwsgi-nginx.svg
