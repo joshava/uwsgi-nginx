@@ -1,6 +1,7 @@
 # uwsgi-nginx
 
 [![License][license_md]][license]
+[![Travis CI][travis_ci]][travis]
 [![Docker Pull][docker_pull]][docker]
 [![Docker Star][docker_star]][docker]
 [![Docker Size][docker_size]][docker]
@@ -21,3 +22,5 @@ FROM joshava/uwsgi-nginx
 [docker_layer]: https://img.shields.io/microbadger/layers/joshava/uwsgi-nginx.svg
 [license]: https://github.com/joshava/uwsgi-nginx/blob/master/LICENSE
 [license_md]: https://img.shields.io/github/license/joshava/uwsgi-nginx.svg
+[travis]: https://travis-ci.org/joshava/uwsgi-nginx
+[travis_ci]: https://img.shields.io/travis/joshava/uwsgi-nginx.svg
